@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "editorconfig.editorconfig",
+        "bradlc.vscode-tailwindcss",
+        "vue.volar",
+        "dbaeumer.vscode-eslint",
+        "gruntfuggly.todo-tree"
+    ]
+}
