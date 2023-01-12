@@ -1,0 +1,6 @@
+*,
+*::after,
+*::before {
+  @apply m-0 font-inter box-border;
+  color-scheme: dark;
+}
