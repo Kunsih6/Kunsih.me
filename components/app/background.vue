@@ -1,0 +1,25 @@
+<template>
+  <div
+    before:bg-gradient-to-b
+    before:content-none
+    before:fixed
+    before:from-black
+    before:h-screen
+    before:left-0
+    before:opacity-40
+    before:to-transparent
+    before:top-0
+    before:w-screen
+    bg-center
+    bg-cover
+    bg-fixed
+    bg="[url(/bg-sm-landscape.webp)]
+        portrait:[url(/bg-sm-portrait.webp)]
+        md:[url(/bg-lg-landscape.webp)]
+        md:portrait:[url(/bg-lg-portrait.webp)]
+        2xl:[url(/bg-xl-landscape.webp)]
+        2xl:portrait:[url(/bg-xl-portrait.webp)]"
+  >
+    <slot />
+  </div>
+</template>
