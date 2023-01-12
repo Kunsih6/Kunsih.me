@@ -1,4 +1,5 @@
 <template>
+  <AppSeo />
   <AppBackground>
     <NuxtLayout>
       <NuxtPage />

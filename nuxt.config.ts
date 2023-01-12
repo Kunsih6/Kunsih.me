@@ -7,18 +7,26 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@unocss/nuxt',
   ],
+  runtimeConfig: {
+    public: {
+      defaultTitle: process.env.TITLE_TEMPLATE,
+    },
+  },
   i18n: {
+    baseUrl: 'https://my-nuxt-app.com',
     defaultLocale: 'en',
     locales: [
       {
         code: 'en',
         file: 'en-US.yaml',
         name: 'English',
+        iso: 'en-US',
       },
       {
         code: 'es',
         file: 'es-ES.yaml',
         name: 'Español',
+        iso: 'es-ES',
       },
     ],
     lazy: true,
