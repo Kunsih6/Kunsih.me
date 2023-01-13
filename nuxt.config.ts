@@ -13,7 +13,7 @@ export default defineNuxtConfig({
     },
   },
   i18n: {
-    baseUrl: 'https://my-nuxt-app.com',
+    baseUrl: process.env.BASE_URL,
     defaultLocale: 'en',
     locales: [
       {
