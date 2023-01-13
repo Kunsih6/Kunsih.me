@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const config = useRuntimeConfig()
+
 const head = useLocaleHead({
   addDirAttribute: true,
   identifierAttribute: 'id',
@@ -6,7 +8,7 @@ const head = useLocaleHead({
 })
 
 useHead({
-  titleTemplate: chunk => chunk ? `${chunk} | Estuardo Aguirre` : 'Estuardo Aguirre',
+  titleTemplate: chunk => chunk ? `${chunk} | ${config.public.defaultTitle}` : config.public.defaultTitle,
 })
 </script>
 
