@@ -10,6 +10,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       defaultTitle: process.env.TITLE_TEMPLATE,
+      githubUrl: process.env.GITHUB_URL,
+      linkedinUrl: process.env.LINKEDIN_URL,
     },
   },
   i18n: {
@@ -18,13 +20,13 @@ export default defineNuxtConfig({
     locales: [
       {
         code: 'en',
-        file: 'en-US.yaml',
+        file: 'en-US.json',
         name: 'English',
         iso: 'en-US',
       },
       {
         code: 'es',
-        file: 'es-ES.yaml',
+        file: 'es-ES.json',
         name: 'Español',
         iso: 'es-ES',
       },

@@ -1,0 +1,9 @@
+{
+  "action": {
+    "downloadCV": "Download my resume",
+    "downloadPDF": "Download PDF"
+  },
+  "info": {
+    "title": "Frontend engineer"
+  }
+}

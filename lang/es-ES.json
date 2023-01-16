@@ -1,0 +1,9 @@
+{
+  "action": {
+    "downloadCV": "Descarga mi CV",
+    "downloadPDF": "Descargar PDF"
+  },
+  "info": {
+    "title": "Ingeniero de frontend"
+  }
+}
